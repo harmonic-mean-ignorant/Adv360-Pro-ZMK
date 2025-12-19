@@ -21,6 +21,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        home_shortcut {
+            bindings = <&kp HOME>;
+            key-positions = <35 53>;
+        };
+
+        end_shortcut {
+            bindings = <&kp END>;
+            key-positions = <35 68>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
