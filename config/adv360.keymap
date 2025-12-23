@@ -211,21 +211,35 @@
 
             mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_LGUI|MOD_RSFT|MOD_RGUI)>;
         };
-    };
 
-    combos {
-        compatible = "zmk,combos";
-
-        home_shortcut {
-            bindings = <&kp HOME>;
-            key-positions = <53 35>;
+        g_esc: g_esc {
+            compatible = "zmk,behavior-tap-dance";
+            label = "G_ESC";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp G>, <&kp ESCAPE>;
         };
 
-        end_shortcut {
-            bindings = <&kp END>;
-            key-positions = <68 35>;
+        pgup_home: pgup_home {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PGUP_HOME";
+            bindings = <&kp PG_UP>, <&kp HOME>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RGUI|MOD_LGUI)>;
+        };
+
+        pgdn_end: pgdn_end {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PGDN_END";
+            bindings = <&kp PAGE_DOWN>, <&kp END>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
         };
     };
+
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -233,11 +247,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&pgrave    &pkp_n1         &lkp_n2         &lkp_n3             &lkp_n4           &akp_n5  &tog 1                                                              &mo 3      &ekp_n6       &rkp_n7            &rkp_n8              &rkp_n9          &skp_n0          &eprcnt
-&kp TAB    &kp Q           &kp W           &kp F               &kp P             &kp B    &none                                                               &none      &mt ESCAPE J  &kp L              &kp U                &kp Y            &kp APOSTROPHE   &bhash
-&kp ESC    &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &kp G    &none     &kp LGUI  &kp LEFT_CONTROL      &kp RIGHT_ALT  &kp RCMD   &none      &kp M         &hm RIGHT_SHIFT N  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I  &hm RIGHT_GUI O  &kp SEMI
-&kp LSHFT  &kp Z           &kp X           &kp C               &kp D             &kp V                        &kp DEL               &kp PG_UP                            &kp K         &kp H              &kp COMMA            &kp DOT          &uhyph           &kp RSHFT
-&mo 2      &dtilde         &kp CAPS        &kp LEFT            &kp RIGHT                  &kp BSPC  &kp TAB   &kp ESCAPE            &kp PG_DN      &kp ENTER  &kp SPACE                &kp UP             &kp DOWN             &fquestion       &acaret          &mo 2
+&pgrave    &pkp_n1         &lkp_n2         &lkp_n3             &lkp_n4           &akp_n5  &tog 1                                                              &mo 3      &ekp_n6  &rkp_n7            &rkp_n8              &rkp_n9          &skp_n0          &eprcnt
+&kp TAB    &kp Q           &kp W           &kp F               &kp P             &kp B    &none                                                               &none      &kp J    &kp L              &kp U                &kp Y            &kp APOSTROPHE   &bhash
+&kp ESC    &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &g_esc   &none     &kp LGUI  &kp LEFT_CONTROL      &kp RIGHT_ALT  &kp RCMD   &none      &kp M    &hm RIGHT_SHIFT N  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I  &hm RIGHT_GUI O  &kp SEMI
+&kp LSHFT  &kp Z           &kp X           &kp C               &kp D             &kp V                        &kp DEL               &pgup_home                           &kp K    &kp H              &kp COMMA            &kp DOT          &uhyph           &kp RSHFT
+&mo 2      &dtilde         &kp CAPS        &kp LEFT            &kp RIGHT                  &kp BSPC  &kp TAB   &kp ESCAPE            &pgdn_end      &kp ENTER  &kp SPACE           &kp UP             &kp DOWN             &fquestion       &acaret          &mo 2
             >;
         };
 
