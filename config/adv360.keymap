@@ -47,7 +47,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N1>, <&kp PLUS>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_RSFT)>;
         };
 
         lkp_n2: left_bracket_kp_n2 {
@@ -56,7 +56,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N2>, <&kp LEFT_BRACKET>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_RSFT|MOD_LSFT)>;
         };
 
         lkp_n3: left_brace_kp_n3 {
@@ -65,7 +65,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N3>, <&kp LEFT_BRACE>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_RSFT|MOD_LSFT)>;
         };
 
         lkp_n4: left_parenthesis_kp_n4 {
@@ -74,7 +74,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N4>, <&kp LEFT_PARENTHESIS>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_RSFT)>;
         };
 
         akp_n5: amps_kp_n5 {
@@ -83,7 +83,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N5>, <&kp AMPS>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_RSFT|MOD_LSFT)>;
         };
 
         ekp_n6: equal_kp_n6 {
@@ -92,7 +92,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N6>, <&kp EQUAL>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_RSFT)>;
         };
 
         rkp_n7: right_parenthesis_kp_n7 {
@@ -101,7 +101,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N7>, <&kp RIGHT_PARENTHESIS>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_RSFT)>;
         };
 
         rkp_n8: right_brace_kp_n8 {
@@ -110,7 +110,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N8>, <&kp RIGHT_BRACE>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_RSFT)>;
         };
 
         rkp_n9: right_bracket_kp_n9 {
@@ -119,7 +119,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N9>, <&kp RIGHT_BRACKET>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_RSFT)>;
         };
 
         skp_n0: star_kp_n0 {
@@ -128,7 +128,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N0>, <&kp STAR>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_RSFT)>;
         };
 
         eprcnt: excl_prcnt {
@@ -137,7 +137,7 @@
             #binding-cells = <0>;
             bindings = <&kp EXCL>, <&kp PRCNT>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_RSFT|MOD_LSFT)>;
         };
 
         dgrave: dllr_grave {
@@ -155,7 +155,7 @@
             #binding-cells = <0>;
             bindings = <&kp DLLR>, <&kp TILDE>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_RSFT)>;
         };
 
         ggrave: grave_grave {
@@ -173,7 +173,7 @@
             #binding-cells = <0>;
             bindings = <&kp PIPE>, <&kp GRAVE>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_RSFT)>;
         };
 
         bhash: bslh_hash {
@@ -191,7 +191,7 @@
             #binding-cells = <0>;
             bindings = <&kp AT>, <&kp CARET>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_RSFT)>;
         };
 
         fquestion: flsh_question {
@@ -200,7 +200,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_SLASH>, <&kp QUESTION>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_LGUI|MOD_RSFT|MOD_RGUI)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_RSFT)>;
         };
 
         uhyph: undr_hyph {
@@ -209,7 +209,7 @@
             #binding-cells = <0>;
             bindings = <&kp UNDERSCORE>, <&kp KP_SUBTRACT>;
 
-            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_LGUI|MOD_RSFT|MOD_RGUI)>;
+            mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_RSFT)>;
         };
 
         g_esc: g_esc {
