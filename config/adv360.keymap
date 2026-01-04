@@ -210,6 +210,7 @@
             bindings = <&kp UNDERSCORE>, <&kp KP_SUBTRACT>;
 
             mods = <(LGUI|LSHIFT|RGUI|RSHIFT|MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
         };
 
         g_esc: g_esc {
