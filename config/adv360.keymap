@@ -210,6 +210,7 @@
             bindings = <&kp UNDERSCORE>, <&kp KP_SUBTRACT>;
 
             mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
+            keep-mods = <(LEFT_CONTROL|LEFT_ALT|RIGHT_CONTROL|RIGHT_ALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
         };
 
         g_esc: g_esc {
