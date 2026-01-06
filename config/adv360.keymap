@@ -29,8 +29,7 @@
             #binding-cells = <0>;
             bindings = <&kp GRAVE>, <&kp PIPE>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         ppipe: pipe_pipe {
@@ -39,8 +38,7 @@
             #binding-cells = <0>;
             bindings = <&kp PIPE>, <&kp PIPE>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         pkp_n1: plus_kp_n1 {
@@ -49,8 +47,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N1>, <&kp PLUS>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         lkp_n2: left_bracket_kp_n2 {
@@ -59,8 +56,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N2>, <&kp LEFT_BRACKET>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         lkp_n3: left_brace_kp_n3 {
@@ -69,8 +65,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N3>, <&kp LEFT_BRACE>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         lkp_n4: left_parenthesis_kp_n4 {
@@ -79,8 +74,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N4>, <&kp LEFT_PARENTHESIS>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         akp_n5: amps_kp_n5 {
@@ -89,8 +83,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N5>, <&kp AMPS>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         ekp_n6: equal_kp_n6 {
@@ -108,8 +101,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N7>, <&kp RIGHT_PARENTHESIS>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         rkp_n8: right_brace_kp_n8 {
@@ -118,8 +110,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N8>, <&kp RIGHT_BRACE>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         rkp_n9: right_bracket_kp_n9 {
@@ -128,8 +119,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N9>, <&kp RIGHT_BRACKET>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         skp_n0: star_kp_n0 {
@@ -138,8 +128,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_N0>, <&kp STAR>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         eprcnt: excl_prcnt {
@@ -148,8 +137,7 @@
             #binding-cells = <0>;
             bindings = <&kp EXCL>, <&kp PRCNT>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         dgrave: dllr_grave {
@@ -158,8 +146,7 @@
             #binding-cells = <0>;
             bindings = <&kp DLLR>, <&kp GRAVE>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         dtilde: dllr_tilde {
@@ -168,8 +155,7 @@
             #binding-cells = <0>;
             bindings = <&kp DLLR>, <&kp TILDE>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         ggrave: grave_grave {
@@ -178,8 +164,7 @@
             #binding-cells = <0>;
             bindings = <&kp GRAVE>, <&kp GRAVE>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         pgrave: pipe_grave {
@@ -188,8 +173,7 @@
             #binding-cells = <0>;
             bindings = <&kp PIPE>, <&kp GRAVE>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         bhash: bslh_hash {
@@ -198,8 +182,7 @@
             #binding-cells = <0>;
             bindings = <&kp BSLH>, <&kp HASH>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         acaret: at_caret {
@@ -208,8 +191,7 @@
             #binding-cells = <0>;
             bindings = <&kp AT>, <&kp CARET>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         fquestion: flsh_question {
@@ -218,8 +200,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_SLASH>, <&kp QUESTION>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         uhyph: undr_hyph {
@@ -228,8 +209,7 @@
             #binding-cells = <0>;
             bindings = <&kp UNDERSCORE>, <&kp KP_SUBTRACT>;
 
-            mods = <(LSHIFT|RSHIFT|MOD_LSFT|MOD_RSFT|LEFT_SHIFT|RIGHT_SHIFT)>;
-            keep-mods = <(LEFT_CONTROL|LEFT_ALT|LALT|RIGHT_CONTROL|RIGHT_ALT|RALT|MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         g_esc: g_esc {
